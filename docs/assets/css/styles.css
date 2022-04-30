@@ -1,0 +1,120 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.about {
+  text-align: center;
+}
+
+.portada {
+  margin: auto;
+  text-align: center;
+}
+
+.portada img {
+  width: 80%;
+}
+
+.about .linea {
+  width: 30%;
+  height: 2px;
+  background: red;
+  margin: auto;
+}
+
+.about {
+  max-width: 800px;
+  margin: auto;
+}
+
+.navbar .logo img {
+  width: 100px;
+}
+
+.servicios {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.servicios .row {
+  margin: auto;
+  text-align: left;
+}
+
+.servicios .row p {
+  text-align: right;
+  color: #f49d18;
+  font-size: 18px;
+}
+
+.forma {
+  margin: auto;
+  text-align: center;
+}
+
+.servicios img {
+  width: 500px;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promoimg {
+  text-align: center;
+}
+
+.promoimg img {
+  width: 500px;
+}
+
+@media (max-width: 920px) {
+  .promoimg img {
+    width: 100%;
+  }
+}
+
+.botonw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botonw img {
+  width: 100px;
+}
+
+.botonw a {
+  background: #018501;
+  margin-right: 20px;
+  padding: 8px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.botonw a:hover {
+  background: #006a00;
+}
+
+.fb {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.fb #imag {
+  width: 60%;
+}
+
+.rig-row {
+  object-fit: cover;
+  overflow-y: hidden;
+}
+

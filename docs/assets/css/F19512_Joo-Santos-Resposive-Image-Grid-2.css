@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.rig-header-div {
+  margin: 0;
+  padding: 0;
+}
+
+.rig-h2 {
+  text-align: center;
+  padding: 0px 0px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.rig-d {
+  margin-top: -30px;
+  font-size: 20px;
+}
+
+.rig-row {
+  display: flex;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.rig-collumn {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.rig-column.img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 0px;
+  object-fit: cover;
+}
+
